@@ -1,0 +1,12 @@
+OrchidOS is an independent operating-system research project.
+
+OrchidOS is not affiliated with, endorsed by, or sponsored by Apple Inc.,
+Motorola Mobility LLC, Qualcomm Incorporated, or their affiliates.
+
+Apple, Darwin, XNU, iOS, and related names may be trademarks or product names
+of their respective owners. Motorola Moto G60 and Snapdragon are used to
+identify the hardware platform under study.
+
+Original OrchidOS-authored files are MIT-licensed unless otherwise stated.
+Third-party code and materials remain subject to their respective licenses.
+See docs/licensing.md for the project's license-handling policy.
