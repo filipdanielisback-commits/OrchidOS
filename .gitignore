@@ -1,0 +1,40 @@
+# Build output
+/build/
+/out/
+/dist/
+/target/
+/*.img
+/*.bin
+/*.elf
+/*.dtb
+/*.dtbo
+
+# Tool and compiler output
+*.o
+*.a
+*.so
+*.dylib
+*.class
+*.pyc
+__pycache__/
+.cache/
+.compile_commands.json
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+private/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
