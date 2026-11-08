@@ -14,12 +14,13 @@ This file is the index for technical references used by OrchidOS. Each project c
 
 These sources provide background and source material. They do not establish that a given XNU revision supports the Moto G60.
 
-## Device-specific sources to collect
+## Moto G60 / hanoip research leads
 
-- Motorola support and product documentation for the exact Moto G60 model.
-- Manufacturer-published kernel source corresponding to the device's software release.
-- Device-specific kernel and device-tree repositories, with exact commits.
-- Public hardware documentation for identified controllers and components.
+- Motorola G40 Fusion / G60 Android device tree: https://github.com/motorola-sm6150-devs/android_device_motorola_hanoip
+- Archived hanoip device-source organization: https://github.com/moto-hanoip/
+- TeamWin hanoip device tree and preliminary device specification reference: https://github.com/TeamWin/android_device_motorola_hanoip
+
+These are research leads, not proof of XNU support. Device trees describe Android build integration and may not contain a complete hardware specification. Verify the exact model, branch, commit, provenance, and license before relying on or reusing any files.
 
 ## Citation record format
 
