@@ -1,0 +1,28 @@
+name: Documentation or tooling issue
+description: Report an error in OrchidOS documentation or project tooling
+title: "[Issue]: "
+labels: ["needs-triage"]
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is wrong?
+      description: Describe the issue clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: File or location
+      description: Link the affected file, section, or workflow.
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior or correction
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Add sources, logs, or steps to reproduce where applicable.
