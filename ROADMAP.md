@@ -10,12 +10,23 @@ This roadmap describes research goals, not promised delivery dates. A milestone 
 - [ ] Establish a reproducible development environment.
 - [ ] Review XNU source layout and its licensing requirements.
 
+## Milestone 001 — XNU ARM64 feasibility
+
+- [x] Review the upstream XNU project overview and confirm documented ARM64 support.
+- [x] Identify public `hanoip` Android device-source repositories.
+- [x] Record initial feasibility findings and major unknowns in [the report](docs/milestone-001-feasibility.md).
+- [ ] Select and record an exact XNU source revision and license.
+- [ ] Verify the exact Moto G60 model and regional variant.
+- [ ] Build a source-linked hardware evidence register.
+- [ ] Map XNU ARM64 platform requirements against verified device evidence.
+- [ ] Select a documented virtual research target, if supported by the chosen XNU revision.
+
 ## Phase 1 — Architecture research
 
 - [ ] Map the major XNU subsystems relevant to ARM64.
 - [ ] Document the differences between XNU, Darwin user space, and Apple's proprietary platform components.
 - [ ] Identify the boot and platform interfaces that a port would need.
-- [ ] Write an initial feasibility report with explicit unknowns.
+- [ ] Complete an evidence-backed feasibility report with explicit unknowns.
 
 ## Phase 2 — Controlled test environment
 
