@@ -1,0 +1,30 @@
+name: Research task
+description: Propose a focused OrchidOS research task
+title: "[Research]: "
+labels: ["research"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question
+      description: What specific question should this task answer?
+      placeholder: Describe one focused question.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why does this matter to the Moto G60 Darwin/XNU research?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Link primary sources or explain what needs to be found.
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Expected result
+      description: What documentation, evidence, or prototype should result?
